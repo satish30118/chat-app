@@ -1,0 +1,164 @@
+.register-page{
+    background: linear-gradient(to right, rgb(2, 2, 78), rgb(3, 57, 66));
+    margin: 0px;
+    /* height: 200vh; */
+    padding:10vh 0px;
+}
+
+.register-form{
+    background-color: white;
+    box-shadow: 0 0 6px 3px;
+    width: 60vw;
+    margin: 0px auto ;
+    padding: 50px 40px 60px 40px;
+    display:flex;
+    
+}
+
+.register-user-logo{
+    width: 40%;
+    /* border: 3px solid red; */
+    padding-top: 10%;
+}
+
+.reg-form-wrapper{
+    width: 60%;
+    /* border:3px solid black; */
+}
+
+.register-user-logo img{
+   width: 98%;
+
+}
+
+.register-user-logo a{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding-left: 5%;
+    display:block;
+    text-align: center;
+}
+
+.reg-form-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: blue;
+    padding: 8px 10px;
+    color: white;
+    text-align: center;
+}
+
+.reg-form-row{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    padding: 0px;
+}
+.reg-form-icon{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    background-color:gray;
+    height: 100%;
+    padding: 8px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+}
+i{
+    font-size: 20px;
+}
+.reg-form-row input{
+    width: 80%;
+    border: none;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+.reg-form-btn input{
+    background-color: blue;
+    color: white;
+    padding: 4px 40px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 14px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.reg-form-btn input:hover{
+    background-color: brown;
+    color: white;
+}
+
+
+
+@media only screen and (max-width:1100px){
+    .register-form{
+        width: 70vw;
+    }
+}
+   
+@media only screen and (max-width:1000px){
+    .register-form{
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .register-form{
+        width: 90vw;
+    }
+    .register-user-logo a{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:800px){
+    .register-form{
+        width: 95vw;
+        padding: 30px 20px;
+    }
+    .register-user-logo a{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:670px){
+    .reg-form-wrapper{
+        width: 70%;
+    }
+    .register-user-logo{
+        width: 30%;
+    }
+}
+@media only screen and (max-width:600px){
+    .register-form{
+        flex-direction: column-reverse;
+        padding:50px;
+        width: 90vw;
+    }
+    .reg-form-wrapper{
+        width: 100%;
+    }
+    .register-user-logo{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:470px){
+    .register-form{
+        flex-direction: column-reverse;
+        padding:50px 20px;
+        width: 90vw;
+    }
+    .reg-form-wrapper{
+        width: 100%;
+    }
+    .register-user-logo{
+        width: 100%;
+    }
+}

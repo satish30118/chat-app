@@ -1,0 +1,117 @@
+.user-header{
+    background-color: white;
+    height: 60px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.user-header-left{
+    /* background-color: red; */
+    width: 220px;
+    margin: 0px 20px;
+   height: 40px;
+   padding: 5px;
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   border-radius: 10px;
+   position: relative;
+
+    
+}
+.user-header-left:hover{
+    background-color: rgb(231, 223, 223);
+    /* border: 2px solid black; */
+}  
+.user-header-left i {
+    width: 14%;
+    box-sizing: border-box;
+    padding-top:5px;
+}
+.user-header-left input{
+    width:70%;
+    height: 100%;
+    background:transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    outline: none;
+
+}
+.user-header-right{
+    display: flex;
+
+}
+.user-notification{
+    padding: 0px 20px;
+}
+.user-profile{
+    position: relative;
+}
+.menu-list{
+    display: none;
+    background-color: lightgray;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 24px;
+    right: -20px;
+}
+.menu-list ul{
+    list-style-type: none;
+    padding: 10px 7px;
+    margin: 0px;
+}
+.menu-list ul li{
+    padding:4px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.menu-list ul li button{
+    border: none;
+    background:transparent;
+}
+.menu-list ul li:hover{
+ background: gray;
+ color:rgb(14, 14, 124);
+}
+.user-profile:hover>.menu-list{
+    display: block;
+}
+
+.user-list{
+    position: absolute;
+    top: 50px;
+    left: -5px;
+    width: auto;
+    height: auto;
+    padding: 30px 20px;
+    background-color: gray;
+}
+
+.showProfile{
+    position: absolute;
+    width: 40%;
+    box-shadow: 0 0 14px 5px;
+    background-color: lightgray;
+    left: 40%;
+    top: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 27px;
+    font-weight: 600;
+    height: 300px;
+    text-align: center;
+
+}
+.showProfile p{
+    border: 2px solid black;
+    height: 50px;
+    width: 60px;
+    float: right;
+    background-color: red;
+    color: white;
+}
